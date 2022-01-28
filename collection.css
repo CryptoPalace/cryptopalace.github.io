@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+nav{
+    background: transparent;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 50px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background:white ;
+    transition: .5s ;
+}
+
+
+.bilhar{
+    border-radius: 400px;
+    border: 2px solid transparent;
+    padding: 20px;
+}
+
+.basebol{
+    border-radius: 400px;
+    border: 2px solid transparent;
+    padding: 20px;
+
+}
+
+.basket{
+    border-radius: 400px;
+    border: 2px solid transparent;
+    padding: 20px;
+
+}
+
+h1{
+    font-size: 48px;
+    text-align: center;
+}
+
+.esquerda{
+    text-align: left;
+    text-justify: inter-word;
+    font-size: 30px;
+    position: absolute;
+}
+
+.meio{
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 30px;
+    position: absolute;
+}
+
+.direita{
+    text-align: right;
+    text-justify: inter-word;
+    font-size: 30px;
+    position: absolute;
+}
+
+h2{
+    text-align: center;
+}

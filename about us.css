@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+
+h1{
+    font-family: 'Oswald',sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    color: black;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin: 40px 0;
+    line-height: 1.2em;
+}
+
+p{
+    font-family: 'Oswald',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom:10px;
+    margin: 0 0 13px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+nav{
+    background: transparent;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 50px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background:white ;
+    transition: .5s ;
+}
